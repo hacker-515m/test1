@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الحنتكور الاسود</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: url('path-to-your-foggy-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      background-color: #1a1a1a;
+      color: #E0E0E0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px 30px;
+      background-image: url(img/online-security-dark-background-3d-illustration.jpg);
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 1.5s ease-out forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      color: #A8DADC;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #F1FAEE;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #A8DADC;
+      padding-bottom: 10px;
+      color: #A8DADC;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: rgba(255, 255, 255, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #A8DADC;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    ul li:hover {
+      transform: translateX(10px);
+      box-shadow: 0 4px 8px rgba(168, 218, 220, 0.3);
+    }
+    ul li strong {
+      color: #A8DADC;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    .btn {
+      display: inline-block;
+      background: #A8DADC;
+      color: #1a1a1a;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    .btn:hover {
+      background: #F1FAEE;
+      transform: scale(1.05);
+    }
+    .btn:active {
+      transform: scale(0.95);
+    }
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+        padding: 15px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      ul li {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>الحنتكور الاسود</h1>
+      <p>بوابتك لعالم الاختراق الاحترافي والأمن السيبراني</p>
+      <p>نوفر خدمات متنوعة من اختراق اشخاص منظمات شركات و مكافحة ابتزاز و اختراق منصات تداول</p>
+        <p>مجتمع عاهر</p>
+    </header>
+
+    <section>
+      <h2>خدماتنا</h2>
+      <ul>
+        <li>
+          <strong>اختراق متقدم:</strong>
+          نقدم اختبارات متقدمة للكشف عن الثغرات في الأنظمة والتطبيقات مع تقارير تحليلية مفصلة.
+          <a href="#advanced-hacking" class="btn">تفاصيل</a>
+        </li>
+        <li>
+          <strong>كورسات تدريبية:</strong>
+          دورات عملية متخصصة في تقنيات الاختراق والأمن السيبراني لتعزيز مهاراتك الاحترافية.
+          <a href="tow.html" class="btn">تفاصيل</a>
+        </li>
+        <li>
+          <strong>أدوات احترافية:</strong>
+          مكتبة أدوات تحليل واختبار تضمن أداءً سريعاً وفعّالاً في اختراق الأنظمة.
+          <a href="#professional-tools" class="btn">تفاصيل</a>
+        </li>
+        <li>
+          <strong>استشارات أمنية:</strong>
+          استشارات متخصصة لتحليل الأنظمة وتقديم حلول متكاملة لتعزيز الأمان السيبراني.
+          <a href="#security-consulting" class="btn">تفاصيل</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>أقسام الموقع</h2>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="#advanced-hacking" class="btn">اختراق متقدم</a>
+        <a href="tow.html" class="btn">كورسات اختراق</a>
+        <a href="#professional-tools" class="btn">أدوات الهاكر الاسود</a>
+        <a href="#security-consulting" class="btn">استشارات أمنية</a>
+        <a href="abut.html" target="_blank" class="btn">من نحن ؟</a>
+
+      </div>
+    </section>
+  </div>
+</body>
+</html>
