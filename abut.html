@@ -215,21 +215,19 @@
         <a href="#">📷 إنستجرام</a>
       </div>
     </div>
-    <div class="card">
-      <img src="img/p.jpg" alt="محمد إبراهيم">
-      <h2>محمد السيد</h2>
-      <p><strong>الخبرة:</strong> ستغلال واكتشاف الثغرات، استرجاع وتعطيل الحسابات، تحليل البرامج الضارة، كتابة أكواد آمنة، تدقيق أمني، وتحقيق حوادث أمنية.<p>
-      <p><strong>اللغات:</strong> Python، JavaScript، ++C، SQL، CSS، HTML، Java.</p>
-      <p><strong>البلد:</strong>الاردن</p>
-      <div class="buttons">
-        <a href="#">📘 فيسبوك</a>
-        <a href="#">📞 واتساب</a>
-        <a href="#">📷 إنستجرام</a>
-      </div>
-    </div>
+
   </div>
   <button class="join-button" onclick="openModal()">انضم لفريقنا</button>
-  
+  <div id="joinModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">✖</span>
+      <h2>طلب الانضمام</h2>
+      <input type="text" id="name" placeholder="اسمك">
+      <input type="text" id="skills" placeholder="مهاراتك">
+      <input type="text" id="project" placeholder="اسم مشروع سابق">
+      <input type="text" id="contact" placeholder="وسيلة التواصل (بريد/هاتف)">
+      <button onclick="sendRequest()">إرسال الطلب</button>
+    </div>
   </div>
   <script>
     function openModal() {
